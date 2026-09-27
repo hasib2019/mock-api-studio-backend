@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+
+# build output
+/dist
+
+# testing
+/coverage
+
+# env files (the checked-in template .env.example stays tracked)
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
